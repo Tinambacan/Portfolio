@@ -2,8 +2,6 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/portfolio/',
-  plugins: [
-    vue(),
-  ],
+  base: '/Portfolio/',
+  plugins: [vue()],
 })
