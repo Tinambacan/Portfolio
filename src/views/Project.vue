@@ -117,7 +117,7 @@ export default {
           title: "CIEBOT", 
           videoLink: "https://www.youtube.com/embed/xm36XxK3PgY", 
           techstack: [
-            "/images/VUE.png",
+            "/images/vue.png",
             "/images/laravel.png",
             "/images/tailwind.png",
             "/images/mysql.png"
