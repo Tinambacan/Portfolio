@@ -7,7 +7,8 @@
     <!-- Header (Visible Only on Small Screens) -->
     <HeaderComponent class="block md:hidden" />
     
-    <main class="flex-grow flex items-center justify-center"> <!-- Center Content -->
+    <main class="flex-grow grid items-center justify-center">
+       <!-- Center Content -->
       <router-view />
     </main>
 

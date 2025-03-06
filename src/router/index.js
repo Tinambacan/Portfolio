@@ -8,7 +8,7 @@ import ProjectPage from '../views/Project.vue'
 
 const routes = [
     { path: '/', component: HomePage },
-    { path: '/tech-stack', component: TechStackPage },
+    { path: '/technology', component: TechStackPage },
     { path: '/project', component: ProjectPage },
     { path: '/contact', component: ContactPage },
   ];

@@ -3,7 +3,7 @@
     <!-- Animated Heading -->
     <h2 
       class="text-3xl md:text-4xl bg-gradient-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent font-extrabold space-grotesk animate-fade-in">
-      🚀 Tech Stack
+      🚀 Tools & Technologies
     </h2>
 
     <!-- Skill Grid -->

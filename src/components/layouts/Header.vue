@@ -5,22 +5,26 @@
       <nav class="md:hidden">
         <ul class="flex space-x-6">
           <li>
-            <router-link to="/" class="p-2 hover:bg-gray-700 rounded flex justify-center">
+            <router-link to="/" class="p-2 hover:bg-gray-700 rounded flex justify-center" active-class="bg-gray-700"
+            exact-active-class="bg-gray-700">
               <font-awesome-icon :icon="['fas', 'home']" class="text-2xl" />
             </router-link>
           </li>
           <li>
-            <router-link to="/tech-stack" class="p-2 hover:bg-gray-700 rounded flex justify-center">
+            <router-link to="/technology" class="p-2 hover:bg-gray-700 rounded flex justify-center" active-class="bg-gray-700"
+            exact-active-class="bg-gray-700">
               <font-awesome-icon :icon="['fas', 'layer-group']" class="text-2xl" />
             </router-link>
           </li>
           <li>
-            <router-link to="/project" class="p-2 hover:bg-gray-700 rounded flex justify-center">
+            <router-link to="/project" class="p-2 hover:bg-gray-700 rounded flex justify-center" active-class="bg-gray-700"
+            exact-active-class="bg-gray-700">
               <font-awesome-icon :icon="['fas', 'fa-folder']" class="text-2xl" />
             </router-link>
           </li>
           <!-- <li>
-            <router-link to="/contact" class="p-2 hover:bg-gray-700 rounded flex justify-center">
+            <router-link to="/contact" class="p-2 hover:bg-gray-700 rounded flex justify-center" active-class="bg-gray-700"
+            exact-active-class="bg-gray-700">
               <font-awesome-icon :icon="['fas', 'envelope']" class="text-2xl" />
             </router-link>
           </li> -->

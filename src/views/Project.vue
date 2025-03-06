@@ -12,6 +12,7 @@
       :key="index"
       class="h-full flex items-center justify-center"
     >
+    
       <div class=" fancy-container shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 p-4 w-full min-h-80 flex flex-col md:flex-row md:h-96 lg:h-[500px]">
         <!-- Video Section -->
         <div class="px-5 w-full md:w-1/2 flex items-center justify-center h-64 md:h-full lg:h-full">
@@ -126,11 +127,15 @@ export default {
           description: "CIEBOT is a highly efficient chatbot designed to enhance learning in information technology. Whether you need assistance with programming, insights into the latest tech trends, or quick I.T. support, CIEBOT is here to help with a seamless and intelligent experience. Powered by Algolia and OpenAI, CIEBOT delivers fast, relevant results from a curated knowledge base while generating intelligent responses when needed. With voice and text-to-speech support, users can receive spoken answers or send voice messages for a more interactive experience. "
         },
         { 
-          title: "Project 4", 
-          videoLink: "https://www.youtube.com/embed/ScMzIvxBSi4", 
-          techstack: "#", 
+          title: "NOCTOGRAM", 
+          videoLink: "https://www.youtube.com/embed/5y2cz6w5LGA", 
+          techstack: [
+            "/images/react.png",
+            "/images/tailwind.png",
+            "/images/json.png",
+          ],
           codeLink: "#", 
-          description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          description: "Noctogram is an advanced information system designed to educate the public on cybersecurity threats and best practices for online safety. It raises awareness about the impact of cybercrime on individuals, businesses, and society by providing informative content, real-world case studies, and expert insights. Through interactive learning and expert guidance, Noctogram empowers users to stay informed about evolving cyber threats and adopt safer online practices, contributing to a more secure digital environment."
         }
       ],
     };
