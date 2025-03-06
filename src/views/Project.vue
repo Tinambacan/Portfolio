@@ -134,7 +134,7 @@ export default {
             "/images/tailwind.png",
             "/images/json.png",
           ],
-          codeLink: "#", 
+          codeLink: "https://github.com/Tinambacan/projects/tree/main/Noctogram", 
           description: "Noctogram is an advanced information system designed to educate the public on cybersecurity threats and best practices for online safety. It raises awareness about the impact of cybercrime on individuals, businesses, and society by providing informative content, real-world case studies, and expert insights. Through interactive learning and expert guidance, Noctogram empowers users to stay informed about evolving cyber threats and adopt safer online practices, contributing to a more secure digital environment."
         }
       ],
