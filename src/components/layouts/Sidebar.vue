@@ -27,6 +27,7 @@ export default {
       menuItems: [
         { route: "/", icon: ["fas", "home"], tooltip: "Home" },
         { route: "/tech-stack", icon: ["fas", "layer-group"], tooltip: "Tech Stack" },
+        { route: "/project", icon: ["fas", "fa-folder"], tooltip: "Project" },
         { route: "/contact", icon: ["fas", "envelope"], tooltip: "Contact" }
       ]
     };
