@@ -21,13 +21,13 @@
     <div class="text-left md:mr-6 mt-4 md:mt-0 flex-1 fancy-container">
       <p class="text-lg text-gray-300 uppercase tracking-wide fade-in">Hi, I am</p>
       <h1 class="text-3xl font-extrabold bg-gradient-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent">Joselito Tinambacan</h1>
-      <p class="text-xl text-gray-200 mb-4 fancy-subtitle">Full Stack Developer</p>
+      <p class="text- text-gray-200 mb-4 fancy-subtitle">Full Stack Developer</p>
       <p class="text-gray-300 fade-in ">
         A dedicated Full-Stack Developer with experience in web application development, database management, and software quality assurance.    
       </p>
-      <div class="mt-4 text-gray-700 flex justify-start gap-2">
-        <p class="text-xl text-white space-grotesk-p">Contact Me:</p>
-        <div class="flex gap-4">
+      <div class="mt-4 text-gray-700 flex flex-col md:flex-row justify-start md:gap-8">
+        <p class="text-lg text-white space-grotesk-p">Contact Me: 639765404954</p>
+        <div class="flex gap-4 mt-2 md:mt-0 text-center">
           <!-- Gmail -->
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=joselito.tinambacan@gmail.com" target="_blank">
             <font-awesome-icon :icon="['fas', 'envelope']" class="text-red-500 text-3xl hover:scale-110 transition-transform" />
@@ -42,9 +42,14 @@
           <a href="https://www.linkedin.com/in/joselito-tinambacan-28845b337" target="_blank">
             <font-awesome-icon :icon="['fab', 'linkedin']" class="text-blue-500 text-3xl hover:scale-110 transition-transform" />
           </a>
-        </div>
 
+          <!-- Viber -->
+          <a href="viber://chat?number=639765404954" target="_blank">
+            <font-awesome-icon :icon="['fab', 'viber']" class="text-purple-500 text-3xl hover:scale-110 transition-transform" />
+          </a>
+        </div>
       </div>
+  
     </div>
   </div>
   

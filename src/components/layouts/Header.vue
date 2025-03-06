@@ -19,11 +19,11 @@
               <font-awesome-icon :icon="['fas', 'fa-folder']" class="text-2xl" />
             </router-link>
           </li>
-          <li>
+          <!-- <li>
             <router-link to="/contact" class="p-2 hover:bg-gray-700 rounded flex justify-center">
               <font-awesome-icon :icon="['fas', 'envelope']" class="text-2xl" />
             </router-link>
-          </li>
+          </li> -->
         </ul>
       </nav>
     </div>
