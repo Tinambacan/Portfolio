@@ -1,5 +1,5 @@
 <template>
-  <header class="text-white p-4 fixed top-0 w-full z-50 bg-gray-900 bg-opacity-50">
+  <header class="text-white p-4 fixed top-0 w-full z-50 bg-gray-900 bg-opacity-80">
     <div class="flex justify-center items-center">
       <!-- Navigation Icons (Font Awesome) -->
       <nav class="md:hidden">
