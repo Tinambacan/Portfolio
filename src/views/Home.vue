@@ -3,14 +3,24 @@
     <!-- Left Section (Image & Contact) -->
     <div class="flex flex-col items-center">
       <div class="w-52 h-52 flex-shrink-0 perspective">
-        <img 
-          :src="profile" 
-          alt="Profile Picture" 
-          class="w-full h-full object-cover rounded-full shadow-lg coin-effect">
+  <div class="coin-container">
+    <!-- Front Image -->
+    <img 
+      :src="isFlipped ? profile1 : profile2" 
+      alt="Profile Picture" 
+      class="w-full h-full object-cover rounded-full shadow-lg coin-effect front">
+    
+    <!-- Back Image -->
+    <img 
+      :src="isFlipped ? profile2 : profile1" 
+      alt="Profile Picture" 
+      class="w-full h-full object-cover rounded-full shadow-lg coin-effect back">
+  </div>
       </div>
+
       <!-- Download Resume Button -->
       <a 
-        href="/files/Tinambacan - CV(1).pdf" 
+        href="/files/Tinambacan - CV.pdf" 
         download 
         class="mt-4 bg-gradient-to-r from-red-500 to-yellow-500 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-transform transform hover:scale-110 hover:shadow-2xl">
         Download Resume
@@ -61,15 +71,18 @@ export default {
   name: "HomePage",
   data() {
     return {
-      profile: '/images/logo.png',
+      profile1: "/images/profile1.png",
+      profile2: "/images/profile3.jpeg",
+      isFlipped: false
     };
   },
+ 
 };
+
 </script>
 
 <style scoped>
 
-/* Ensures 3D rotation effect */
 .perspective {
   perspective: 1000px;
 }
@@ -78,9 +91,20 @@ export default {
   0% {
     transform: rotateY(0deg);
   }
+  50% {
+    transform: rotateY(180deg);
+  }
   100% {
     transform: rotateY(360deg);
   }
+}
+
+.coin-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spinCoin 10s linear infinite; /* Continuous rotation */
 }
 
 .coin-effect {
@@ -89,8 +113,14 @@ export default {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  animation: spinCoin 5s linear infinite; /* Rotates continuously every 3s */
+  position: absolute;
+  backface-visibility: hidden;
 }
+
+.back {
+  transform: rotateY(180deg);
+}
+
 
 .fancy-container {
   background: rgba(255, 255, 255, 0.1);
