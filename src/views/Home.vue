@@ -36,7 +36,7 @@
         A dedicated Full-Stack Developer with experience in web application development, database management, and software quality assurance.    
       </p>
       <div class="mt-4 text-gray-700 flex flex-col md:flex-row justify-start md:gap-8">
-        <p class="text-lg text-white space-grotesk-p">Contact Me: 639765404954</p>
+        <p class="text-lg text-white space-grotesk-p">Contact Me: 6590513955</p>
         <div class="flex gap-4 mt-2 md:mt-0 text-center">
           <!-- Gmail -->
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=joselito.tinambacan@gmail.com" target="_blank">
