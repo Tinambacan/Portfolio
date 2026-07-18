@@ -71,7 +71,7 @@ export default {
   name: "HomePage",
   data() {
     return {
-      profile1: "/images/profile1.png",
+      profile1: "/images/profile4.jpg",
       profile2: "/images/profile3.jpeg",
       isFlipped: false
     };
